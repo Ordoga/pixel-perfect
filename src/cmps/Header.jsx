@@ -1,3 +1,6 @@
+import hamburger from '../img/hamburger.png'
+
+
 export function Header() {
 
     return(
@@ -22,7 +25,10 @@ export function Header() {
                         <span className="nav-item contact">
                             <div className="text">Contact</div>
                         </span>
+                    </span>
 
+                    <span className="hamburger">
+                        <img src={hamburger} height='35px' width='35px'></img>
                     </span>
                 </span>
                 <span className="space"></span>

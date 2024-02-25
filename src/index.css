@@ -26,7 +26,7 @@ code {
   /* position: absolute; */
   height: 132px;
   width: 100%;
-  background: rgba(41, 41, 41, 1);
+  background: #292929;
   color: white;
   display: grid;
   grid-template-columns: subgrid;
@@ -90,7 +90,9 @@ code {
   border-left: 1px solid black;
 }
 
-
+.hamburger {
+  display: none;
+}
 
 
 
@@ -115,7 +117,7 @@ code {
 }
 
 .post {
-  height: 307px;
+  /* height: 307px; */
   display: grid;
   grid-template-columns: minmax(200px, auto) auto;
   gap: 40px;
@@ -142,6 +144,7 @@ code {
   color:#4F4E4E;
   padding-right: 26px;
   margin: 0px;
+  padding-top: 0px;
   
   font-family: "Lato", sans-serif;
   font-weight: 700;
@@ -176,6 +179,7 @@ code {
   border-style: solid;
 
   font-family: "Lato", sans-serif;
+  font-size: 16px;
   font-weight: 700;
   font-style: normal;
 }
@@ -254,3 +258,66 @@ code {
   background-color: rgb(253, 144, 48);
 }
 
+
+/* For Mobile */
+
+@media only screen and (max-width: 740px) {
+  /* For mobile phones: */
+
+
+  .app{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+  }
+
+  /* Header Changes */
+  
+  .header-container {
+    height: 60px;
+  }
+
+  .logo .blogin  {
+    padding-left: 15px;
+  }
+
+  .hamburger {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding-right: 15px;
+  }
+
+  .nav-items{
+    display: none;
+  }
+
+  /* Main Changes */
+  
+  .content {
+    padding-top: 30px;
+    gap: 40px;
+  }
+
+  .post{
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+
+  .post-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+    padding: 20px;
+
+  }
+
+  .image {
+  }
+
+  img {
+  }
+}
