@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Ordoga/pixel-perfect/static/css/main.ed5f8884.css",
+    "main.js": "/Ordoga/pixel-perfect/static/js/main.666ea7e2.js",
+    "static/js/453.2d59b633.chunk.js": "/Ordoga/pixel-perfect/static/js/453.2d59b633.chunk.js",
+    "static/media/post1.png": "/Ordoga/pixel-perfect/static/media/post1.9ceb2f0d98700b6cd34a.png",
+    "static/media/post2.png": "/Ordoga/pixel-perfect/static/media/post2.32f7d4489781244b2736.png",
+    "static/media/post3.png": "/Ordoga/pixel-perfect/static/media/post3.3d0fa68a37924e9370de.png",
+    "static/media/hamburger.png": "/Ordoga/pixel-perfect/static/media/hamburger.8762a040b10739b2ed0c.png",
+    "index.html": "/Ordoga/pixel-perfect/index.html",
+    "main.ed5f8884.css.map": "/Ordoga/pixel-perfect/static/css/main.ed5f8884.css.map",
+    "main.666ea7e2.js.map": "/Ordoga/pixel-perfect/static/js/main.666ea7e2.js.map",
+    "453.2d59b633.chunk.js.map": "/Ordoga/pixel-perfect/static/js/453.2d59b633.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed5f8884.css",
+    "static/js/main.666ea7e2.js"
+  ]
+}
